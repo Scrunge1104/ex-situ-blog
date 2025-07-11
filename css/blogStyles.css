@@ -32,6 +32,10 @@ p {
 	margin-bottom: 1rem;
 }
 
+hr {
+	border-color: #ECD798;
+}
+
 a.hiddenLink {
 	text-decoration: none; /*get rid of hyperlink look*/
 	color: #2C430F;
@@ -164,6 +168,10 @@ h4 {
 	line-height: 2;
 }
 
+.intextCitation {
+	font-size: 0.6rem;
+}
+
 .postContentImageContainer {
 	display: grid;
 	grid-template-rows: min-content min-content;
@@ -178,6 +186,7 @@ h4 {
 
 .postContentImage {
 	max-width: 90%;
+	max-height: 40rem;
 }
 
 /*Making Things Arranged Nice*/

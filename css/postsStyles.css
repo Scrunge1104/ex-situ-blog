@@ -242,6 +242,7 @@ p {
 }
 
 .blogPost {
+	align-self: start;
 	display: grid;
 	grid-template-rows: max-content;
 	grid-template-columns: 1fr 2fr;
