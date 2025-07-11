@@ -32,6 +32,10 @@ p {
 	margin-bottom: 1rem;
 }
 
+hr {
+	border-color: #ECD798;
+}
+
 a.hiddenLink {
 	text-decoration: none; /*get rid of hyperlink look*/
 	color: #2C430F;
@@ -164,13 +168,25 @@ h4 {
 	line-height: 2;
 }
 
-.postContentImage {
+.intextCitation {
+	font-size: 0.6rem;
+}
+
+.postContentImageContainer {
 	display: grid;
-	grid-template-rows: auto min-content;
+	grid-template-rows: min-content min-content;
 	grid-template-columns: auto;
 	text-align: center;
-	max-width: 50%;
+	justify-items: center;
+	max-width: 70%;
 	color: #4B583A99;
+	margin-left: auto;
+	margin-right: auto
+}
+
+.postContentImage {
+	max-width: 90%;
+	max-height: 40rem;
 }
 
 /*Making Things Arranged Nice*/
