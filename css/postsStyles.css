@@ -236,7 +236,7 @@ p {
 /*main column*/
 .bodyContentMain {
 	display: grid;
-	grid-template-rows: max-content;
+	grid-template-rows: min-content;
 	grid-template-columns: auto;
 	gap: 1rem;
 }
